@@ -1,0 +1,10 @@
+IP Addressing and VLAN Details
+Device	VLAN	IP Address	Default Gateway	Description
+PC0	10	192.168.10.11	192.168.10.1	Department A PC
+PC1	10	192.168.10.12	192.168.10.1	Department A PC
+PC2	20	192.168.20.13	192.168.20.1	Department B PC
+PC3	20	192.168.20.14	192.168.20.1	Department B PC
+Switch 0	10	Not specified	Not applicable	VLAN 10 ports assigned
+Switch 2	20	Not specified	Not applicable	VLAN 20 ports assigned
+Router Gi0/0	10	192.168.10.1	N/A	Gateway for VLAN 10
+Router Gi0/1	20	192.168.20.1	N/A	Gateway for VLAN 20
