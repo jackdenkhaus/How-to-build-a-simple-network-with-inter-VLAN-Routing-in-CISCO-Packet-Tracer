@@ -1,0 +1,18 @@
+Key Configuration Commands (Examples)
+
+Creating VLAN:
+enable conf t vlan 10 name dept A exit interface range fa0/1 - 24 switchport mode access switchport access vlan 10 exit write memory
+
+Router Interface Setup:
+enable conf t interface gig0/0 ip address 192.168.10.1 255.255.255.0 description dept A no shutdown exit interface gig0/1 ip address 192.168.20.1 255.255.255.0 description dept B no shutdown exit write memory
+Connectivity Testing and Troubleshooting
+
+Ping tests conducted:
+PCs within the same VLAN successfully ping each other.
+Initial ping attempts across VLANs fail due to ARP (Address Resolution Protocol) table population.
+Subsequent pings succeed once ARP tables are populated, demonstrating normal network behavior.
+
+Important insights:
+The first ping to a new device may time out as the network learns the routing path.
+The router acts as the default gateway for each VLAN, enabling inter-VLAN communication through routing.
+Switches handle VLAN segmentation by assigning ports to specific VLANs.
