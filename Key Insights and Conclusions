@@ -1,0 +1,6 @@
+Key Insights and Conclusions
+Building VLAN-separated networks with Cisco Packet Tracer is straightforward when following proper configuration steps.
+Proper IP addressing and VLAN configuration on switches and router interfaces are crucial for segmentation and routing.
+Initial ping failures during network testing are expected due to ARP learning and should not indicate misconfiguration.
+Using consistent port assignment strategies (e.g., last ports for router connections) allows easier future network expansion.
+This tutorial provides foundational skills in network design, VLAN setup, and basic troubleshooting.
