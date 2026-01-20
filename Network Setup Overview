@@ -1,0 +1,13 @@
+Network Setup Overview
+
+Devices used:
+Router: Cisco 2911
+Switches: Two Cisco 2960 switches
+PCs: Four PCs, two connected to each switch
+
+Network design:
+Two VLANs representing different departments:
+VLAN 10 for Department A
+VLAN 20 for Department B
+PCs assigned IP addresses within VLAN subnets
+Router interfaces configured as gateways for each VLAN
